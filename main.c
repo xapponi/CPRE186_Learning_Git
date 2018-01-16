@@ -31,10 +31,10 @@ int main(int argc, char* argv[]) {
 	v1 = (double*) malloc(vLen*sizeof(double));
 	v2 = (double*) malloc(vLen*sizeof(double));
 
-	printf("Enter a vector of %d numbers on one line separated by spaces\n", vLen);
+	printf("Enter vector 'A' of %d numbers on one line separated by spaces\n", vLen);
 	scanV(v1, vLen);
 
-        printf("Enter a vector of %d numbers on one line separated by spaces\n", vLen);
+        printf("Enter vector 'B' of %d numbers on one line separated by spaces\n", vLen);
 	scanV(v2, vLen);
 
 	dot1 = dot(v1, v2, vLen);
